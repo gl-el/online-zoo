@@ -1,0 +1,88 @@
+ @font-face {
+     font-family: "Roboto-Bold";
+     src: url("../../assets/fonts/Roboto-Bold.ttf");
+     font-weight: 700;
+ }
+
+ @font-face {
+     font-family: "Roboto-Regular";
+     src: url("../../assets/fonts/Roboto-Regular.ttf");
+ }
+
+ @font-face {
+     font-family: "Roboto-Medium";
+     src: url("../../assets/fonts/Roboto-Medium.ttf");
+ }
+
+ @font-face {
+     font-family: "Roboto-Light";
+     src: url("../../assets/fonts/Roboto-Light.ttf");
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+ ul {
+     list-style-type: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: #FFFFFF;
+ }
+
+ header {
+     background-color: #000;
+     box-sizing: border-box;
+     width: 100%;
+     padding: 14px 220px;
+     font-family: "Roboto-Bold", sans-serif;
+     font-weight: 400;
+     font-size: 19px;
+     line-height: 1.2;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+ }
+
+ .logo {
+     width: 82px;
+     height: 52px;
+     margin-right: 63px;
+     position: relative;
+     border: 1px solid #FFFFFF;
+     border-radius: 2px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+ }
+
+ .logo::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 21px;
+    position:absolute;
+    background-image: url("../../assets/icons/bamboo.svg");
+ }
+
+ .logo-text {
+     font-weight: 400;
+     font-size: 19px;
+     line-height: 120%;
+ }
+
+ .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+ }
+
+ .design-link {
+    margin-left: auto;
+ }
